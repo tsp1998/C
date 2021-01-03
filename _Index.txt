@@ -1,0 +1,382 @@
+Programs by TSP 
+1.Area of Square 
+2.Volume of Cube
+3.Area of circle 
+4.Percentage of Five Subjects 
+5.Average of Five Numbers 
+6.Find Interest 
+7.Circumference of Circle 
+8.Volume of Cyllinder 
+9.Temperature Degree celsius to Farhenheight 
+10.Swap Two Numbers by using Third Variable 
+11.Swap Two Numbers without using Third Variable 
+12.Largest Number 
+13.Size of variable and Datatype 
+14.Eligibility for Voting 
+15.Number is Positive,Negative,even & odd 
+16.Vowel or Consonent 
+17.Rank (First Class,Second Class ,Distinction or Fail )
+18.Addition,Subtraction,Multiplication and Division 
+19.Addition,Subtraction,Multiplication and Division (2)
+20.Area of Circle, Area of Square, Volume of Cube and Perimeter of Circle 
+21.Number Even Odd, Number is Positive or Negative and Character is Vowel or Consonent 
+22.Size of Integer, float& character 
+23.Square Of Number 
+24. Cube Of Number 
+25.Percentage of Five Subjects 
+26.First Ten Numbers In Ascending Order 
+27.First Ten number in Descending Order
+28.Sum of Digits of Number
+29.Only Even Numbers in First Ten Numbers 
+30.Only Odd Numbers in First Ten Numbers 
+31.First Ten Numbers:Ascending Order, Descending Order, Even Numbers and Odd Numbers
+32.Sum of First Ten Numbers 
+33.Fibonacci Series of Numbers 
+34.Factorial of Given Number 
+35.Fibonacci Series of First Ten Numbers 
+36.Sum of First Numbers 
+37.Addition using array
+38.Subtraction using array
+39.Multiplication using array
+40.Division using array
+
+Patterns
+41. 
+*
+* *
+* * *
+* * * *
+42.
+1
+1 2
+1 2 3
+1 2 3 4
+43.
+1
+2 3
+4 5 6
+7 8 9 10
+44.
+1
+2 2
+3 3 3
+4 4 4 4
+45.
+$
+$ $
+$ $ $
+$ $ $ $
+46.
+* * * *
+* * *
+* *
+*
+47.
+A
+B B
+C C C
+D D D D
+48.
+A
+A B
+A B C
+A B C D
+49.
+A
+B C
+D E F
+G H I J
+50.
+A
+B B
+C C C
+D D D D
+51.
+a
+b b
+c c c
+d d d d
+52.
+a
+a b
+a b c
+a b c d
+53.
+a
+b c
+d e f
+g h i j
+
+54.Display Contents using Array
+55.Display Contents using 2D Array
+56. Addition of Matrix
+57. Subtraction of Matrix
+~58. Multiplication of Matrix
+59. Division of Matrix
+60. Display Name Using String
+61. Length of String
+62. Display Name Using String
+63.Addition of Matrix
+64. ASCII Code of Letter
+65. Even or Odd
+66. Positive or Negative
+67. Largest Number (2)
+68.String Functions
+69. Table of Roll Numbers & Marks
+70.Even or Odd, Number is Positive or Negative
+71.Addition 2 by 2 Of Matrix
+72. Addition & Subtraction of Matrix
+73.Swap Two Numbers by using Third Variable Using Function
+74.find Interest using Function
+75.Check Number is Even or Odd using Function
+76.Program to Find Factorial of Given Number using Function
+77.Addition 2 by 2 Of Matrix using Function
+78.Book Information
+79.Employee Information
+80.Student Information
+81.Collage Information
+82.Bike Information
+83.Addition and Subtraction of Infinite Numbers
+84.Multiplication and Division of Infinite Numbers
+85.Addition,Subtraction,Multiplication and Division of Infinite Numbers
+86.Addition,Subtraction,Multiplication and Division by Call by Value
+87.Addition,Subtraction,Multiplication and Division by Call by Address (Reference)
+88.Percentage of Five Subjects & Check Rank by Call by Value
+89.Percentage of Five Subjects & Check Rank by Call by Address (Reference)
+90.Swap Two Numbers without using Third Variable by call by value
+91.Swap Two Numbers without using Third Variable by call by Address (Reference)
+92.Number is even & odd by Call by Value
+93.Number is even & odd by Call by  Address (Reference)
+94.Character is Vowel or Consonent by Call by Value
+95.Character is Vowel or Consonent by Call by Address
+96.Factorial of Given Number by Call by Value
+97.Factorial of Given Number by call by Address (Reference)
+98.
+99.Desired Fibonacci Series of First Ten Numbers
+100. %%%%% series (Format Specifier Series) & structures
+101.Five Subjects & Check Rank by Call by Value
+102.Pattern
+103.Take Constants, Values, Characters &  Display
+104.Addition,Subtraction,Multiplication and Division
+105.Display Array
+//106.All Types Series
+107.Check Number is Prime
+108.Derivative of Polynomial Function
+109.Derivative & integration of Polynomial Function
+110.Largest Number or Smallest Number from Infinite Numbers
+111.Percentage of Subjects
+112.Average of infinite Numbers
+113.Display Contents Of Array by call by value
+114.Display Contents Of Array by call by reference
+115.Display Name by String
+116.sorting of numbers in ascending order
+117.sorting of numbers in descending order
+118.sorting of numbers in ascending/descending order & calculator
+119.Check divisibility
+120.Sum,subtraction,multiplication,division of Digits of Number
+121.Occurrence of digit in number
+122.addition of numbers using GoTo statement/keyword
+123.continue statement
+124.total characters in string
+125.Check string is palindrome or not
+126.Check string is palindrome or not (2)
+127.factorial of number using return statement
+128.To demonstrate automatic storage class
+129.To demonstrate static storage class
+130.To demonstrate static storage class
+131.To demonstrate external/global storage class
+132.To demonstrate register storage class
+133.To calculate area of circle using macro directive
+134.To solve equation using macro directive
+135.number tables
+136.number is Prime or not
+137.Prime sum of prime numbers upto 20
+138.prime sum of prime numbers
+139.pyramid of desired size
+140.number tables with sing song
+141.alphabets with number for mind tests
+142.c program without main function
+143.c program without main function 2
+144.c program without main function 3
+145.Positive/Negative number using ternary operator
+146.list the strings
+147.Display ASCII Code symbols
+148.factorial by Tandale Shubham method
+149.Alphabets Using ASCII Numbers
+150.Record Records
+151.reverse the string
+152.Check string is palindrome or not
+153.~list the strings
+154.3 Dimensional Array (3D)
+155.~Addition of matrix by call by Function
+156.~Addition of matrix by call by reference
+157.String in Double Coats
+158.Voting Eligibility Using Ternary operator
+159.Sum of Digits of Number
+160.Two Condition For Loop
+161.~matrix operations
+162.Sum of Digits of Number
+163.Do While Loop
+164.break Statement
+165.even Numbers using continue statement
+166.Display Multiplication Of Matrix
+167.Switch For Character
+168.Global Variable
+169.~Addition & Subtraction Of Matrix by TSP Method
+170.pyramid of desired size with any character
+171.~Program to Display Alphabets 1by1
+172.Pass Array to function
+173.Functions made by TSP
+174.~list the strings
+175.Pointer to Pointer
+176.Pointer to Pointer by call by reference
+177.change value of variable by Pointer to Pointer by call by reference
+178.Write File
+179.Read File
+180.Append File
+181.Write binary File
+182.Read binary File
+183.Append binary File
+184.Write & read File
+185.Read Write File
+186.Append write File
+187.Write read binary File
+188.Read write binary File
+189.Append Write binary File
+190.Write Data to File
+191.Write Data to File Continuously
+192.Write Data to File Continuously with Line break
+193.Write Data to File Continuously with Line break as long as you want
+194.Write Data to File Continuously with Line break as long as you want using strings
+195.Write File using fprintf function
+196.Read File using fgetc function
+197.Read File using fscanf function
+198.Prime sum of prime numbers upto 20
+199.Read File using fgets function
+200.~Display strings as You want
+201.
+202.Probability Chart
+203.Real & Imaginary Part Of Complex Number
+204.
+205.Square Root
+206.
+207.
+208.
+209.
+210.
+211.
+212.
+213.
+214.
+215.
+216.
+217.Armstrong Series
+218.
+219.
+220.C Vs C++ Vs graphics
+221.
+222.
+223.
+224.
+225.
+226.
+227.
+228.
+229.
+230.
+231.
+232.
+233.
+234.
+235.
+236.
+237.
+238.
+239.
+240.
+241.
+242.
+243.
+244.
+245.
+246.
+247.
+248.
+249.
+250.
+251.
+252.
+253.
+254.
+255.
+256.
+257.
+258.
+259.
+260.
+261.
+262.
+263.
+264.
+265.
+266.
+267.
+268.
+269.
+270.
+271.
+272.
+273.
+274.
+275.
+276.
+277.
+278.
+279.
+280.
+281.
+282.
+283.
+284.
+285.
+286.
+287.
+288.
+289.
+290.
+291.
+292.
+293.
+294.
+295.
+296.
+297.
+298.
+299.
+300.
+
+
+note**:
+1. Switch  statement program also called menu driven program
+2. call by value means parameters should passed (declared) in function bracket
+3.call by address/reference means pointers(parameters with star symbol prefix i.e. void ts(int *s)) should passed (declared) in function bracket
+4.ASCII-american standard code information interchange
+5.switch accepts integer,char parameter not float whereas if accepts all types of parameters
+6.fn1()//caller function
+{
+	fn2();//called function
+}
+7.function declaration known as function prototyping
+8.%p used for address format specifier(i.e. show the address value)
+int x; int *y=&x;
+e.g. printf("%p",&x) or printf("%p",y)
+
+Graphics index
+Ortho 82
+Plane 163
+Class Ortho 243
+
+
+cd tc
+cd bin
+tc
