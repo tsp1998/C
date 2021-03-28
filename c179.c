@@ -2,16 +2,16 @@
 /*Tandale Shubham Parmeshwar
 E36 F.E.(Mech.) 
 SKNSCOE,Korti.*/
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-FILE *f;
-f=fopen("text.txt","r");
+  FILE *f;
+  f = fopen("text.txt", "r");
 
-if(f==NULL)
-printf("\t\nFile not Present");
-else
-printf("\t\nFile Present");
+  if (f == NULL)
+    printf("\t\nFile not Present");
+  else
+    printf("\t\nFile Present");
 
-fclose(f);
+  fclose(f);
 }

@@ -2,43 +2,43 @@
 /*Tandale Shubham Parmeshwar
 E36 F.E.(Mech.)
 SKNSCOE,Korti.*/
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 void main()
 {
-int t,s,p,ch;
-printf("\n\t1.Addition\n\t2.Subtraction\n\t3.Multiplication\n\t4.Division");
-printf("\n\tenter your Choice=");
-scanf("%d",&ch);
-switch(ch)
-{
-case 1:
-printf("\n\tenter two numbers=");
-scanf("%d%d",&t,&s);
-p=t+s;
-printf("\n\tAddition of Numbers=%d",p);
-break;
-case 2:
-printf("\n\tenter two numbers=");
-scanf("%d%d",&t,&s);
-p=t-s;
-printf("\n\tSubtraction of Numbers=%d",p);
-break;
-case 3:
-printf("\n\tenter two numbers=");
-scanf("%d%d",&t,&s);
-p=t*s;
-printf("\n\tMultiplication of Numbers=%d",p);
-break;
-case 4:
-printf("\n\tenter two numbers=");
-scanf("%d%d",&t,&s);
-p=t/s;
-printf("\n\tDivision of Numbers=%d",p);
-break;
-default:
-printf("\n\tSorry Your Choice is Invalid");
-exit(0);
-break;
-}
+  int t, s, p, ch;
+  printf("\n\t1.Addition\n\t2.Subtraction\n\t3.Multiplication\n\t4.Division");
+  printf("\n\tenter your Choice=");
+  scanf("%d", &ch);
+  switch (ch)
+  {
+  case 1:
+    printf("\n\tenter two numbers=");
+    scanf("%d%d", &t, &s);
+    p = t + s;
+    printf("\n\tAddition of Numbers=%d", p);
+    break;
+  case 2:
+    printf("\n\tenter two numbers=");
+    scanf("%d%d", &t, &s);
+    p = t - s;
+    printf("\n\tSubtraction of Numbers=%d", p);
+    break;
+  case 3:
+    printf("\n\tenter two numbers=");
+    scanf("%d%d", &t, &s);
+    p = t * s;
+    printf("\n\tMultiplication of Numbers=%d", p);
+    break;
+  case 4:
+    printf("\n\tenter two numbers=");
+    scanf("%d%d", &t, &s);
+    p = t / s;
+    printf("\n\tDivision of Numbers=%d", p);
+    break;
+  default:
+    printf("\n\tSorry Your Choice is Invalid");
+    exit(0);
+    break;
+  }
 }

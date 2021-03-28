@@ -1,13 +1,14 @@
 //Display ASCII Code symbols
 //Tandale Shubham Parmeshwar
 //E36 F.E.(Mech.) SKNSCOE,Korti.
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-char str[5];
+    char str[5];
 a:
     gets(str);
-    if (strlen(str)==0){
-    	goto a;
+    if (strlen(str) == 0)
+    {
+        goto a;
     }
 }

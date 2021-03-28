@@ -5,46 +5,46 @@ Programmer
 SKNSCOE,Korti
 Email-tsp@outlook.in
 */
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 void main()
 {
-		char temp[10];
-	char s[10000]={'\0'};
+	char temp[10];
+	char s[10000] = {'\0'};
 	char c;
-	int i=0,j=0,k=0,l=0,flag=0,flag1=0,flag2=0,flag3=0,check=1;
+	int i = 0, j = 0, k = 0, l = 0, flag = 0, flag1 = 0, flag2 = 0, flag3 = 0, check = 1;
 	FILE *p;
-//	flushall();
-	 p=fopen("record.txt","w");
-	 re:
-	 s[0]='\0';
+	//	flushall();
+	p = fopen("record.txt", "w");
+re:
+	s[0] = '\0';
 	printf("name:");
 	gets(temp);
-	if(temp[0]=='0')
-	goto end;
-	strcat(s,temp);
-	s[strlen(s)]='$';
+	if (temp[0] == '0')
+		goto end;
+	strcat(s, temp);
+	s[strlen(s)] = '$';
 	printf("Division:");
-		gets(temp);
-		strcat(s,temp);
-	s[strlen(s)]='$';
+	gets(temp);
+	strcat(s, temp);
+	s[strlen(s)] = '$';
 	printf("Roll:");
-		gets(temp);
-		strcat(s,temp);
-	s[strlen(s)]='$';
+	gets(temp);
+	strcat(s, temp);
+	s[strlen(s)] = '$';
 	printf("class:");
-		gets(temp);
-		strcat(s,temp);
-	s[strlen(s)]='$';
+	gets(temp);
+	strcat(s, temp);
+	s[strlen(s)] = '$';
 	printf("branch:");
-		gets(temp);
-		strcat(s,temp);
-	s[strlen(s)]='#';
-	fputs(s,p);
-		fputs("\n",p);
-		goto re;
-		end:
-		 fclose(p);
+	gets(temp);
+	strcat(s, temp);
+	s[strlen(s)] = '#';
+	fputs(s, p);
+	fputs("\n", p);
+	goto re;
+end:
+	fclose(p);
 	/*
 	flushall();
 	 p=fopen("record.txt","r");

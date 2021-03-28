@@ -3,6 +3,6 @@
 #define Shubham main
 void Shubham()
 {
-	int i;
+    int i;
     printf("Hello World!");
 }

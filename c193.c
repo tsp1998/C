@@ -2,45 +2,45 @@
 /*Tandale Shubham Parmeshwar
 E36 F.E.(Mech.) 
 SKNSCOE,Korti.*/
-#include<stdio.h>
-	int i=0;
+#include <stdio.h>
+int i = 0;
 void main()
 {
 	char str[30];
-		printf("\t\nEnter String to write to file:");
+	printf("\t\nEnter String to write to file:");
 	gets(str);
-FILE *f;
+	FILE *f;
 next:
-	f=fopen("textinf.txt","a");
-	fputc('\n',f);
+	f = fopen("textinf.txt", "a");
+	fputc('\n', f);
 	fclose(f);
-f=fopen("textinf.txt","a");
-//every time file written continuously
-if(f==NULL){
-	printf("\t\nFile not Present");
-	exit(0);
-}
+	f = fopen("textinf.txt", "a");
+	//every time file written continuously
+	if (f == NULL)
+	{
+		printf("\t\nFile not Present");
+		exit(0);
+	}
 
-else
-printf("\t\nFile Present\n");
-for(i=0;i<strlen(str);i++)
-{
-	fputc(str[i],f);
-}
-puts("Data Written Successfully\n\n");
-fclose(f);
+	else
+		printf("\t\nFile Present\n");
+	for (i = 0; i < strlen(str); i++)
+	{
+		fputc(str[i], f);
+	}
+	puts("Data Written Successfully\n\n");
+	fclose(f);
 
-
-puts("1.next line\n2.Exit");
-printf("Enter Choice:");
-scanf("%d",&i);
-if(i==1)
-{
-printf("\t\nEnter String to write to file:");
-	gets(str);
-	gets(str);
-goto next;
-}
-else
-puts("Data Written Successfully\n\n");
+	puts("1.next line\n2.Exit");
+	printf("Enter Choice:");
+	scanf("%d", &i);
+	if (i == 1)
+	{
+		printf("\t\nEnter String to write to file:");
+		gets(str);
+		gets(str);
+		goto next;
+	}
+	else
+		puts("Data Written Successfully\n\n");
 }

@@ -5,21 +5,21 @@ Programmer
 SKNSCOE,Korti
 Email-tsp@outlook.in
 */
-#include<stdio.h>
-void numser();//ascending numbers
+#include <stdio.h>
+void numser(); //ascending numbers
 void main()
 {
-numser();
+	numser();
 }
-void numser()//ascending numbers
+void numser() //ascending numbers
 {
-int i,n;
+	int i, n;
 	printf("\nEnter First Number:");
-scanf("%d",&i);
+	scanf("%d", &i);
 	printf("\nEnter Last Number:");
-scanf("%d",&n);
-for(i=i; i<=n; i++)
-{
-printf("\n%d",i);
-}
+	scanf("%d", &n);
+	for (i = i; i <= n; i++)
+	{
+		printf("\n%d", i);
+	}
 }

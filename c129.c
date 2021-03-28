@@ -1,5 +1,5 @@
- //To demonstrate static storage class
-#include<stdio.h>
+//To demonstrate static storage class
+#include <stdio.h>
 void demostatic();
 void main()
 {
@@ -9,7 +9,7 @@ void main()
 }
 void demostatic()
 {
-    static x=10;
-    x=x+2;
-    printf("\nX=%d",x);
-}  
+    static x = 10;
+    x = x + 2;
+    printf("\nX=%d", x);
+}

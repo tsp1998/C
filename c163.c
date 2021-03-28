@@ -5,12 +5,13 @@ Programmer
 SKNSCOE,Korti
 Email-tsp@outlook.in
 */
-#include<stdio.h>
+#include <stdio.h>
 void main()
- {
-int i=1;
-do{
-	printf("Welcome To C language");
-}while(i<=0);//atleast one iteration of loop
-//useful in menu driven programs
-  }
+{
+  int i = 1;
+  do
+  {
+    printf("Welcome To C language");
+  } while (i <= 0); //atleast one iteration of loop
+                    //useful in menu driven programs
+}

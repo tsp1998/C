@@ -6,12 +6,12 @@ SKNSCOE,Korti
 Email-tsp@outlook.in
 */
 #include <stdio.h>
-void main() 
+void main()
 {
-int s,a;
-printf("Enter the Length of Side : ");
-scanf("%d", &s);
-a=s*s;
-printf("\nArea of Square : %d\n", a);
-main();
+  int s, a;
+  printf("Enter the Length of Side : ");
+  scanf("%d", &s);
+  a = s * s;
+  printf("\nArea of Square : %d\n", a);
+  main();
 }
